@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="Stallionsden" />
+        <Description value="Zombies dont dig." />
+        <Author value="Stallionsdens No Digging Zombies" />
+        <Version value="A18.2 B5 Stable" />
+    </ModInfo>
+</xml>

@@ -1,0 +1,18 @@
+<configs>
+
+	<append xpath="/recipes">
+
+		<recipe name="drugVitamins" count="2" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceCropSnowberryPlant" count="6"/>
+			<ingredient name="foodCropMushrooms" count="3"/>
+			<ingredient name="resourceCropGoldenrodPlant" count="3"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="3"/>
+		</recipe>
+		
+		<recipe name="plantedSnowberry1" count="1" craft_time="1" tags="learnable">
+			<ingredient name="resourceCropSnowberryPlant" count="5"/>
+		</recipe>
+
+	</append>
+	
+</configs>

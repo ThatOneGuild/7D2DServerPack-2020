@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Ragsy_Better_Gyro_Handling" />
+		<Description value="Gyro now more stable better take off and landing and better steering" />
+		<Author value="Ragsy2145"/>
+		<Version value="18.0.1.0" compat="A17.4, A18"/>
+		<Website value="https://7daystodie.com/forums/showthread.php?106453-Ragsy2145-Modlets" />
+	</ModInfo>
+</xml>

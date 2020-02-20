@@ -1,0 +1,50 @@
+<config>	
+	<append xpath="/progression/perks">
+		<perk name="ExpBoost" parent="skillCraftsmanship" name_key="Experience Boost" desc_key="Everyone wants to lvl up faster, so start farming/killing and you will be on top of the world in no time." icon="ui_game_symbol_skills">
+
+	<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="2" desc_key="Fortitude Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="2" desc_key="Strength Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="2" desc_key="Agility Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="2" desc_key="Perception Level 2"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="2" desc_key="reqIntellectLevel02"/></level_requirements>
+
+	<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="4" desc_key="Fortitude Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="4" desc_key="Strength Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="4" desc_key="Agility Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="4" desc_key="Perception Level 4"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="4" desc_key="reqIntellectLevel04"/></level_requirements>
+
+	<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="6" desc_key="Fortitude Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="6" desc_key="Strength Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="6" desc_key="Agility Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="6" desc_key="Perception Level 6"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="6" desc_key="reqIntellectLevel06"/></level_requirements>
+
+	<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="8" desc_key="Fortitude Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="8" desc_key="Strength Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="8" desc_key="Agility Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="8" desc_key="Perception Level 8"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="8" desc_key="reqIntellectLevel08"/></level_requirements>
+
+	<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="attFortitude"  operation="GTE" value="10" desc_key="reqFortitudeLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attStrength"   operation="GTE" value="10" desc_key="reqStrengthLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attAgility"    operation="GTE" value="10" desc_key="reqAgilityLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attPerception" operation="GTE" value="10" desc_key="reqPerceptionLevel10"/>
+								  <requirement name="ProgressionLevel" progression_name="attIntellect"  operation="GTE" value="10" desc_key="reqIntellectLevel10"/></level_requirements>	
+
+	<effect_group>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.05" level="1"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.10" level="2"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.15" level="3"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.25" level="4"/>
+		<passive_effect name="PlayerExpGain" operation="perc_add" value="0.50" level="5"/>	
+
+		<effect_description level="1" desc_base="Plus  5% Exp." long_desc_key="Increases your experience gain by 5%."/>
+		<effect_description level="2" desc_base="Plus 10% Exp." long_desc_key="Increases your experience gain by 10%."/>
+		<effect_description level="3" desc_base="Plus 15% Exp." long_desc_key="Increases your experience gain by 15%."/>
+		<effect_description level="4" desc_base="Plus 25% Exp." long_desc_key="Increases your experience gain by 25%."/>
+		<effect_description level="5" desc_base="Plus 50% Exp." long_desc_key="Increases your experience gain by 50%."/>
+	</effect_group>
+		</perk>
+	</append>
+</config>

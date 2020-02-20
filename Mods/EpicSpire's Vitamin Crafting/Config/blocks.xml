@@ -1,0 +1,11 @@
+<configs>
+
+	<set xpath="/blocks/block[@name='plantedSnowberry1']/property[@name='CreativeMode']/@value">Player</set>
+	<set xpath="/blocks/block[@name='plantedSnowberry2']/property[@name='PlantGrowing.Next']/@value">plantedSnowberry3HarvestPlayer</set>
+	
+	<remove xpath="/blocks/block[@name='plantedSnowberry1']/property[@name='CustomIcon']" />
+	<append xpath="/blocks/block[@name='plantedSnowberry1']">
+		<property name="CustomIcon" value="plantedBlueberry1"/> <property name="CustomIconTint" value="ffffaf"/>
+	</append>
+	
+</configs>

@@ -1,0 +1,165 @@
+<configs>
+	<append xpath="/recipes">
+		<!-- Guppycur's_Commecial_Blocks -->
+		<recipe name="guppyVictorianBathtub" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="50"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+			<ingredient name="resourceScrapBrass" count="2"/>
+		</recipe>		
+		
+		<recipe name="guppyVictorianBedTwin" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceCropCottonPlant" count="10"/>
+	        <ingredient name="resourceSpring" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianBedKing" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+	        <ingredient name="resourceCloth" count="30"/>
+	        <ingredient name="resourceCropCottonPlant" count="20"/>
+	        <ingredient name="resourceSpring" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianBookshelf1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianChair1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceLeather" count="4"/>
+		</recipe>		
+		
+		
+		<recipe name="guppyVictorianChair3" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceCloth" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianClock" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="3"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCouch1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+	        <ingredient name="resourceCloth" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCouch2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+	        <ingredient name="resourceCloth" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCounter1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCupboard1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+			<ingredient name="resourceBrokenGlass" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCupboard2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceScrapBrass" count="1"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCupboard4" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+	        <ingredient name="resourceScrapIron" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianCurtain1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCloth" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianDesk" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianHanger2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="15"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianHangingLamp" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="2"/>
+			<ingredient name="resourceScrapBrass" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianShelf3" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianShelf4" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianSink" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="20"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianTable1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianTable2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianTable3" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianTable4" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianToilet" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="5"/>
+			<ingredient name="resourceCobblestones" count="20"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianTowelRack" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="5"/>
+	        <ingredient name="resourceCloth" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyVictorianWallLamp1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="5"/>
+			<ingredient name="resourceBrokenGlass" count="5"/>
+	        <ingredient name="resourceElectricParts" count="4"/>
+		</recipe>		
+		
+	</append>
+	
+</configs>

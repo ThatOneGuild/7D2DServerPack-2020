@@ -1,0 +1,14 @@
+<configs>
+    <!-- Change the backpack controller to our new one -->
+    <set xpath="/windows/window[@name='windowBackpack']/@controller">BackpackWindowSDX, Mods</set>
+	
+	<!-- Moving the creative mode only 'clear inventory' button a little to the left -->
+	<set xpath="/windows/window[@name='windowBackpack']/panel[@name='header']/button[@name='btnClearInventory']/@pos">234,-21</set>
+    
+    <!-- Add the new backpack buttons -->
+	<append xpath="/windows/window[@name='windowBackpack']/panel[@name='header']">
+		<button depth="4" name="btnStashAll" style="icon30px, press" pos="301,-21" atlas="ItemIconAtlas" sprite="manux_ui_game_symbol_stash_all" pivot="center" tooltip="STASH ALL" sound="[paging_click]" />
+		<button depth="4" name="btnStashAllButFirst" style="icon30px, press" pos="368,-21" atlas="ItemIconAtlas" sprite="manux_ui_game_symbol_stash_all_but_first" pivot="center" tooltip="STASH ALL BUT FIRST ROW" sound="[paging_click]" />
+		<button depth="4" name="btnStashMatch" style="icon30px, press" pos="435,-21" atlas="ItemIconAtlas" sprite="manux_ui_game_symbol_basket" pivot="center" tooltip="STASH MATCHING ITEMS" sound="[paging_click]" />
+	</append>
+</configs>

@@ -1,0 +1,6 @@
+<configs>
+
+	<append xpath="/progression/perks/perk[@name='perkYeahScience']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='4,5']/@tags">,drugVitamins</append>
+	<append xpath="/progression/perks/perk[@name='perkLivingOffTheLand']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='3,5']/@tags">,plantedSnowberry1</append>
+
+</configs>

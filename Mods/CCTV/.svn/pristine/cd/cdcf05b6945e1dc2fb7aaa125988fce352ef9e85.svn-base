@@ -1,0 +1,36 @@
+<configs>
+	<append xpath="/recipes" >
+		<recipe name="CCTV0-3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceScrapPolymers" count="8"/>
+			<ingredient name="resourceElectricParts" count="12"/>
+			<ingredient name="glassBlockVariantHelper" count="1"/>
+			<ingredient name="solarCellSmall" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>	
+		<recipe name="CCTV4-7" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+			<ingredient name="resourceScrapPolymers" count="8"/>
+			<ingredient name="resourceElectricParts" count="12"/>
+			<ingredient name="glassBlockVariantHelper" count="1"/>
+			<ingredient name="solarCellSmall" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		
+		<recipe name="CCTVLarge0-3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+			<ingredient name="resourceScrapPolymers" count="16"/>
+			<ingredient name="resourceElectricParts" count="24"/>
+			<ingredient name="glassBlockVariantHelper" count="2"/>
+			<ingredient name="solarCellSmall" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>	
+		<recipe name="CCTVLarge4-7" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+			<ingredient name="resourceScrapPolymers" count="16"/>
+			<ingredient name="resourceElectricParts" count="24"/>
+			<ingredient name="glassBlockVariantHelper" count="2"/>
+			<ingredient name="solarCellSmall" count="1"/>
+			<ingredient name="carBattery" count="1"/>
+		</recipe>
+		<recipe name="solarCellSmall" count="2" craft_area="workbench" tags="perkAdvancedEngineering,learnable" >
+			<ingredient name="solarCell" count="1"/>
+		</recipe>	
+	</append>
+</configs>		

@@ -1,0 +1,19 @@
+<fgstainlessmod>
+		<!-- We need to be able to use tools to upgrade -->
+	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">steelPolish</append>	
+		<!-- Add new items -->
+	<append xpath="/items">
+		<item name="steelPolish">
+			<property name="HoldType" value="45"/>
+			<property name="CustomIcon" value="steelPolish"/>
+			<property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceScrapPolymers"/>
+			<property name="Weight" value="0"/>
+			<property name="Stacknumber" value="250"/> <!-- STK resource -->
+			<property name="EconomicValue" value="240"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Group" value="Resources"/>
+		</item>				
+	</append>
+</fgstainlessmod>

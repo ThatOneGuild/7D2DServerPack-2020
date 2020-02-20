@@ -1,0 +1,30 @@
+<configs>
+
+	<append xpath="/items">
+
+		<item name="VitiminsSchematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="drugVitamins"/>
+			<property name="Unlocks" value="drugVitamins"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="drugVitamins" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+
+		<item name="plantedSnowberry1Schematic">
+			<property name="Extends" value="schematicNoQualityRecipeMaster"/>
+			<property name="EconomicValue" value="400"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="plantedBlueberry1"/> <property name="CustomIconTint" value="ffffaf"/>
+			<property name="Unlocks" value="plantedSnowberry1"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="plantedSnowberry1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	
+	</append>
+	
+</configs>

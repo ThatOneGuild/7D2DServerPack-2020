@@ -1,0 +1,1511 @@
+<configs>
+	<append xpath="/blocks">
+      <block name="guppysPortcullis4">
+        <property name="Class" value="DoorSecure" />
+        <property name="Material" value="Mmetal" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Collide" value="movement,melee,rocket,bullet" />
+        <property name="Tag" value="Door" />
+        <property name="Place" value="Door" />
+        <property name="PlaceEverywhere" value="true" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMediA17Blocks.unity3d?Portcullis4Prefab.prefab"/>
+        <property name="ModelOffset" value="0,.5,0" />
+        <property name="MultiBlockDim" value="4,3,1" />
+        <property name="PassThroughDamage" value="true" />
+        <property name="LightOpacity" value="1" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="CustomIcon" value="guppyPortcullis" />         
+        <property name="FuelValue" value="300" />
+        <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+        <property name="OpenSound" value="open_door_wood" />
+        <property name="CloseSound" value="close_door_wood" />
+        <property class="RepairItems">
+          <property name="resourceForgedIron" value="20" />
+        </property>
+        <property name="CustomUpgradeSound" value="place_block_wood" />
+        <drop event="Harvest" name="resourceForgedIron" count="6" tool_category="Disassemble"/>
+        <drop event="Destroy" count="0" />
+        <property name="Group" value="Building,Basics" />
+        <property name="EconomicValue" value="5" />
+        <property name="EconomicBundleSize" value="10" />
+      </block>
+      <block name="guppysPortcullis5">
+        <property name="Class" value="DoorSecure" />
+        <property name="Material" value="Mmetal" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Collide" value="movement,melee,rocket,bullet" />
+        <property name="Tag" value="Door" />
+        <property name="Place" value="Door" />
+        <property name="PlaceEverywhere" value="true" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMediA17Blocks.unity3d?Portcullis5Prefab.prefab"/>
+        <property name="ModelOffset" value="0,.5,0" />
+        <property name="MultiBlockDim" value="5,3,1" />
+        <property name="PassThroughDamage" value="true" />
+        <property name="LightOpacity" value="1" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="CustomIcon" value="guppyPortcullis" />        
+        <property name="FuelValue" value="300" />
+        <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+        <property name="OpenSound" value="open_door_wood" />
+        <property name="CloseSound" value="close_door_wood" />
+        <property class="RepairItems">
+          <property name="resourceForgedIron" value="20" />
+        </property>
+        <property name="CustomUpgradeSound" value="place_block_wood" />
+        <drop event="Harvest" name="resourceForgedIron" count="6" tool_category="Disassemble"/>
+        <drop event="Destroy" count="0" />
+        <property name="Group" value="Building,Basics" />
+        <property name="EconomicValue" value="5" />
+        <property name="EconomicBundleSize" value="10" />
+      </block>      
+      <block name="guppysDrawbridge4">
+        <property name="Class" value="DoorSecure" />
+        <property name="Material" value="Mmetal" />
+        <property name="MaxDamage" value="1000" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Collide" value="movement,melee,rocket,bullet" />
+        <property name="Tag" value="Door" />
+        <property name="Place" value="Door" />
+        <property name="PlaceEverywhere" value="true" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMediA17Blocks.unity3d?MedDrawbridge4Prefab.prefab"/>
+        <property name="ModelOffset" value="0,.5,0" />
+        <property name="MultiBlockDim" value="4,5,1" />
+        <property name="PassThroughDamage" value="true" />
+        <property name="LightOpacity" value="1" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="CustomIcon" value="guppyDrawbridge" />        
+        <property name="FuelValue" value="300" />
+        <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+        <property name="OpenSound" value="open_door_wood" />
+        <property name="CloseSound" value="close_door_wood" />
+        <property class="RepairItems">
+          <property name="resourceWood" value="250" />
+          <property name="resourceForgedIron" value="20" />
+        </property>
+        <property name="CustomUpgradeSound" value="place_block_wood" />
+        <drop event="Harvest" name="resourceWood" count="50,100" tool_category="Disassemble"/>
+        <drop event="Harvest" name="resourceForgedIron" count="12,24" tool_category="Disassemble"/>
+        <drop event="Destroy" count="0" />
+        <property name="Group" value="Building,Basics" />
+        <property name="EconomicValue" value="5" />
+        <property name="EconomicBundleSize" value="10" />
+      </block>  
+      <block name="guppysDrawbridge5">
+        <property name="Class" value="DoorSecure" />
+        <property name="Material" value="Mmetal" />
+        <property name="MaxDamage" value="1000" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="Collide" value="movement,melee,rocket,bullet" />
+        <property name="Tag" value="Door" />
+        <property name="Place" value="Door" />
+        <property name="PlaceEverywhere" value="true" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMediA17Blocks.unity3d?MedDrawbridge5Prefab.prefab"/>
+        <property name="ModelOffset" value="0,.5,0" />
+        <property name="MultiBlockDim" value="5,5,1" />
+        <property name="PassThroughDamage" value="true" />
+        <property name="LightOpacity" value="1" />
+        <property name="Shape" value="ModelEntity" />
+        <property name="CustomIcon" value="guppyDrawbridge" />        
+        <property name="FuelValue" value="300" />
+        <property name="ImposterExchange" value="imposterCTRPlate" param1="35" />
+        <property name="OpenSound" value="open_door_wood" />
+        <property name="CloseSound" value="close_door_wood" />
+        <property class="RepairItems">
+          <property name="resourceWood" value="250" />
+          <property name="resourceForgedIron" value="20" />
+        </property>
+        <property name="CustomUpgradeSound" value="place_block_wood" />
+        <drop event="Harvest" name="resourceWood" count="50,100" tool_category="Disassemble"/>
+        <drop event="Harvest" name="resourceForgedIron" count="12,24" tool_category="Disassemble"/>
+        <drop event="Destroy" count="0" />
+        <property name="Group" value="Building,Basics" />
+        <property name="EconomicValue" value="5" />
+        <property name="EconomicBundleSize" value="10" />
+      </block>       
+      <block name="guppysArch1X">
+        <property name="Extends" value="woodWeakNoUpgradeMaster" param1="DescriptionKey" />
+        <!--<property name="DescriptionKey" value="" />-->
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMediA17Blocks.unity3d?Arch1XWoodPrefab.prefab"/>
+        <property name="Texture" value="8" />
+        <property name="CustomIcon" value="guppysArch1X" />          
+      </block>
+      
+    <block name="guppysLaptop">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyLaptopPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyLaptop" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysRecycleBin">
+      <property name="Class" value="Loot"/>    
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyRecycleBinPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyRecycleBin" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="LootList" value="10"/>
+		</block>    
+    <block name="guppysCasinoCarpetBlock">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoCarpetBlockPrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyCasinoCarpetBlock" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>
+    <block name="guppysCushionBlue">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyCushionBluePrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyCushionBlue" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>
+    <block name="guppysCushionRed">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyCushionRedPrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyCushionRed" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>
+    <block name="guppysCushionGreen">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyCushionGreenPrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyCushionGreen" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>
+    <block name="guppysCushionYellow">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyCushionYellowPrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyCushionYellow" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>    
+    <block name="guppysToyPile">
+        <property name="Material" value="Mcloth"/>
+        <property name="IsTerrainDecoration" value="true"/>	
+        <property name="Shape" value="ModelEntity"/>	
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyToyPilePrefab.prefab"/>
+        <property name="Place" value="TowardsPlacerInverted"/>			
+        <property name="OnlySimpleRotations" value="true"/>
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+        <property name="CustomIcon" value="guppyToyPile" />
+        <property name="Stabilitysupport" value="true"/>
+        <property name="CreativeMode" value="Player"/>
+        <property name="Stacknumber" value="10"/>
+        <property name="Group" value="Basics,Building"/>
+        <property name="DescriptionKey" value="torchGroupDesc"/>
+        <property name="FilterTags" value="fdecor,felectrical"/>
+        <property name="SortOrder1" value="70a0"/>
+    </block>
+    <block name="guppysArcadeMachine01">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyArcadeMachine01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyArcadeMachine01" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,2,1"/>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceBrokenGlass" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceSpring" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" prob="0.4" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>      
+		</block>    
+    <block name="guppysCasinoBlackjack">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoBlackjackPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoBlackjack" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,1,2"/>
+		</block>
+    <block name="guppysFireExtinguisher">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyFireExtinguisherPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyFireExtinguisher" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>    
+    <block name="guppysCasinoBlackjackWithCarpet">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoBlackjackWithCarpetPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoBlackjackWithCarpet" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,1,2"/>
+		</block>
+    <block name="guppysCasinoRoulette">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoRoulettePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoRoulette" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,1,2"/>
+		</block>
+    <block name="guppysCasinoRouletteWithCarpet">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoRouletteWithCarpetPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoRouletteWithCarpet" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,1,2"/>
+		</block>
+    <block name="guppysCasinoSlots">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoSlotsPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoSlots" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,2,2"/>
+		</block>
+    <block name="guppysCasinoSlotsWithCarpet">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCasinoSlotsWithCarpetPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCasinoSlotsWithCarpet" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,2,2"/>
+		</block>
+		<block name="guppysBarricade">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarricadePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarricade" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,1,1"/>
+		</block>
+		<block name="guppysFireHydrant">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyFireHydrantPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyFireHydrant" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysMailbox">
+    	<property name="Class" value="Loot"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyMailboxPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMailbox" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="LootList" value="14"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysDeepPan">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyDeepPanPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyDeepPan" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="CanPickup" value="true"/>
+		</block>
+    <block name="guppysPan">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyPanPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyPan" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysTeapot">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTeapotPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTeapot" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysSaucePan">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySaucePanPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppySaucePan" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>    
+    <block name="guppysBarrel01">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel01" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysGumballMachine">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyGumballMachinePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyGumballMachine" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>    
+    <block name="guppysBarrel02">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel02Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel02" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysBarrel03">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel03Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel03" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysBarrel04">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel04Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel04" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysBarrel05">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel05Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel05" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysBarrel06">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBarrel06Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBarrel06" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>  
+    <block name="guppysRadZoneSign">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyRadZoneSignPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="false"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyRadZoneSign" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,2,1"/>  
+		</block>
+    <block name="guppysPrinter">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyPrinterPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="false"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyPrinter" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" prob="0.4" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>       
+      <property name="MultiBlockDim" value="1,1,1"/>  
+		</block>   
+    <block name="guppysSnackMachine01">
+      <property name="Group" value="Science"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="cntVendingMachineGroupDesc"/>
+      <property name="DisplayType" value="blockHardenedMulti" />
+      <property name="Material" value="Mmetal_medium"/>
+      <property name="LightOpacity" value="0"/>
+      <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+      <property name="Class" value="VendingMachine"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Path" value="solid"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySnackMachine01Prefab.prefab"/>
+      <property name="CustomIcon" value="guppySnackMachine01" />
+      <property name="MultiBlockDim" value="1,2,1"/>
+      <property name="ImposterExchange" value="imposterBlock" param1="143"/>
+      <property name="OnlySimpleRotations" value="true"/>
+      <property name="Place" value="TowardsPlacerInverted"/>
+      <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+      <property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
+      <property name="TraderID" value="3"/>
+      <property name="Stacknumber" value="10"/>
+      <property name="EconomicValue" value="2000"/>
+      <property name="Buff" value="buffShocked"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="floot,ffurniture"/>
+    </block>
+    <block name="guppysSnackMachine02">
+      <property name="Group" value="Science"/>
+      <property name="CreativeMode" value="Player"/>
+      <property name="DescriptionKey" value="cntVendingMachineGroupDesc"/>
+      <property name="DisplayType" value="blockHardenedMulti" />
+      <property name="Material" value="Mmetal_medium"/>
+      <property name="LightOpacity" value="0"/>
+      <property name="StabilitySupport" value="false"/> <!-- build restriction -->
+      <property name="Class" value="VendingMachine"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Path" value="solid"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySnackMachine02Prefab.prefab"/>
+      <property name="CustomIcon" value="guppySnackMachine02" />
+      <property name="MultiBlockDim" value="1,2,1"/>
+      <property name="ImposterExchange" value="imposterBlock" param1="143"/>
+      <property name="OnlySimpleRotations" value="true"/>
+      <property name="Place" value="TowardsPlacerInverted"/>
+      <property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+      <property class="RepairItems"> <property name="resourceForgedIron" value="5"/> </property>
+      <property name="TraderID" value="3"/>
+      <property name="Stacknumber" value="10"/>
+      <property name="EconomicValue" value="2000"/>
+      <property name="Buff" value="buffShocked"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="floot,ffurniture"/>
+    </block>
+    <block name="guppysRoadDivider">
+			<property name="Material" value="Mconcrete"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyRoadDividerPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyRoadDivider" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="3,1,1"/>      
+		</block>
+    <block name="guppysSmallStoneHouse">
+			<property name="Material" value="Mconcrete"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppySmallStoneHousePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppySmallStoneHouse" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>    
+    <block name="guppysSatDish">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySatDishPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppySatDish" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMetalPipe" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceSpring" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" prob="0.4" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+     <block name="guppysTelephoneBooth">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTelephoneBoothPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTelephoneBooth" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMetalPipe" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceSpring" count="1" prob="0.1" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,5" prob="0.4" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceScrapIron" count="20" tag="allHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="1,2,1"/>       
+		</block>   
+    <block name="guppysBigGenerator">
+      <property name="CreativeMode" value="Player"/>
+      <property name="Class" value="Generator"/>
+      <property name="DisplayType" value="blockHardened" />
+      <property name="Material" value="Mmetal_medium"/>
+      <property name="Stabilitysupport" value="true"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Mesh" value="models"/>
+      <property name="Path" value="solid"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBigGeneratorPrefab.prefab"/>    
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="DescriptionKey" value="powerSourceDesc"/>
+      <property name="MaxFuel" value="5000"/>
+      <property name="OutputPerFuel" value="24500"/>
+      <property name="MaxPower" value="24500"/>
+      <property name="OutputPerStack" value="200"/>
+      <property name="SlotItem" value="smallEngine"/>
+      <property name="DisplayType" value="blockElectrical" />
+			<property name="CustomIcon" value="guppyBigGenerator" />      
+      <property name="Group" value="Science"/>
+      <property class="RepairItems">
+        <property name="resourceForgedIron" value="8"/>
+        <property name="resourceMechanicalParts" value="8"/>
+        <property name="resourceElectricParts" value="8"/>
+        <property name="resourceElectricParts" value="3"/>
+      </property>
+      <drop event="Harvest" name="resourceScrapIron" count="192" tag="allHarvest"/>
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceForgedIron" count="3" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="3" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="3" tag="salvageHarvest"/>
+      <drop event="Harvest" name="resourceElectricParts" count="1,2" prob="0.6" tag="salvageHarvest"/>
+      <drop event="Destroy" count="0"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+      <property name="Stacknumber" value="1"/>
+      <property name="TakeDelay" value="15"/>
+      <property name="EconomicValue" value="500"/>
+      <property name="FilterTags" value="fdecor,felectrical"/>
+      <property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,2,1"/> 
+    </block>    
+    <block name="guppysBrokenWindMachine">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBrokenWindMachinePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBrokenWindMachine" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block> 
+    <block name="guppysScaffolding">
+      <property name="Group" value="Building,Basics"/>
+      <property name="Class" value="Ladder"/>
+      <property name="Material" value="Mwood_ladders"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="LightOpacity" value="0"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyScaffoldingPrefab.prefab"/>
+      <property name="Texture" value="241"/>
+      <property name="MultiBlockDim" value="2,2,1"/>
+      <property name="UseGlobalUV" value="Local"/>
+      <property name="Place" value="TowardsPlacerInverted"/>
+      <property name="ImposterExclude" value="true"/>
+      <property name="ImposterDontBlock" value="true"/>
+      <property name="Collide" value="movement,melee,rocket"/>
+      <property name="CustomIcon" value="guppyScaffold" />    
+      <property name="FuelValue" value="150"/>
+      <property class="RepairItems"> <property name="resourceWood" value="3"/> </property>
+      <drop event="Destroy" name="resourceWood" count="1,2"/>
+      <property name="EconomicValue" value="6"/>
+      <property name="EconomicBundleSize" value="20"/>
+      <property name="FilterTags" value="fdecor,fother"/>     
+    </block>
+    <block name="guppysScrapBox1">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="15"/>  
+			<property name="Material" value="Mmetal_weak"/>
+      <property name="DisplayInfo" value="None"/>      
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyScrapBox1Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyScrapBox1" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+    <block name="guppysScrapBox2">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="90"/>   
+			<property name="Material" value="Mmetal_weak"/>
+      <property name="DisplayInfo" value="None"/>       
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyScrapBox2Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyScrapBox2" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block> 
+    <block name="guppysToolbox">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="88"/>  
+			<property name="Material" value="Mmetal_weak"/>
+      <property name="DisplayInfo" value="None"/>       
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyToolboxPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyToolbox" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>  
+    <block name="guppysToolrack">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="88"/>      
+			<property name="Material" value="Mmetal_weak"/>
+      <property name="DisplayInfo" value="None"/>       
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyToolRackPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyToolrack" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="3,2,1"/>      
+		</block>  
+    <block name="guppysTrashBag">
+      <property name="Class" value="Loot"/>    
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTrashbagPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyGarbageBag" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="LootList" value="46"/>      
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysMannequin01">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyMannequin01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMannequin01" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>     
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysMannequin02">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyMannequin02Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMannequin02" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>      
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysTrafficCone">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTrafficConePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTrafficCone" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysTrafficConeKnockedDown">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTrafficConeKnockedDownPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTrafficConeKnockedDown" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>
+    <block name="guppysBookStack">
+			<property name="Material" value="Mpaper"/>
+      <property name="Class" value="Loot"/>      
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBookStackPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBookStack" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="LootList" value="89"/>      
+		</block>    
+    <block name="guppysBasketballHoop">
+			<property name="Material" value="Mplastics"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyBasketballHoopPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyBasketballHoop" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>  
+    <block name="guppysTorrii">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyTorriiPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTorrii" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="3,2,1"/>      
+		</block>     
+    <block name="guppysCabinet01">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="15"/>      
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCabinet01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCabinet01" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block> 
+    <block name="guppysSchoolDesk">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="89"/>      
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySchoolDeskPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppySchoolDesk" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>     
+    <block name="guppysCabinet02">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="15"/>      
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCabinet02Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCabinet02" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block> 
+    <block name="guppysCabinet03">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="15"/>      
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCabinet03Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCabinet03" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>   
+    <block name="guppysQueenBed01">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyQueenBed01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyQueenBed01" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="2,1,2"/>
+		</block>  
+    <block name="guppysCrate01">
+      <property name="Extends" value="cntShippingCrateLabEquipment"/>    
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyCrate01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCrate01" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>     
+    <block name="guppysTableLight">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyTableLightPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTableLight" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>   
+    <block name="guppysTrafficLight1">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysTrafficLight.unity3d?guppyTrafficLightPole1.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTrafficLightPole1" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+			<property name="MultiBlockDim" value="1,2,1"/> 			
+	</block> 
+    <block name="guppysTrafficLight2">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysTrafficLight.unity3d?guppyTrafficLightPole2.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTrafficLightPole2" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+			<property name="MultiBlockDim" value="1,3,1"/> 			
+	</block>   	
+    <block name="guppysWantedPosterSmall"> <!-- This block is not redundant. Joel uses it to test model/texture changes. -->
+      <property name="DisplayType" value="blockHardened" />
+      <property name="Material" value="Mpaper"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Texture" value="293"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyWantedPosterSmallPrefab.prefab"/>
+      <property name="MultiBlockDim" value="1,2,1"/>      
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fdesign"/>
+      <property name="SortOrder1" value="40z0"/>
+      <property name="SortOrder2" value="0002"/>
+	  <property name="CustomIcon" value="guppyWantedPoster" />      
+    </block>
+    <block name="guppysWantedPosterLarge"> <!-- This block is not redundant. Joel uses it to test model/texture changes. -->
+      <property name="DisplayType" value="blockHardened" />
+      <property name="Material" value="Mpaper"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Texture" value="293"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyWantedPosterLargePrefab.prefab"/>
+      <property name="MultiBlockDim" value="2,3,1"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fdesign"/>
+      <property name="SortOrder1" value="40z0"/>
+      <property name="SortOrder2" value="0002"/>
+	  <property name="CustomIcon" value="guppyWantedPoster" />      
+    </block>  
+    <block name="guppysClothingRack"> <!-- This block is not redundant. Joel uses it to test model/texture changes. -->
+      <property name="DisplayType" value="blockHardened" />
+      <property name="Material" value="Mcloth"/>
+      <property name="Shape" value="ModelEntity"/>
+      <property name="Texture" value="293"/>
+      <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+      <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppyClothesRackPrefab.prefab"/>
+      <property name="MultiBlockDim" value="1,2,1"/>
+      <drop event="Destroy" count="0"/>
+      <property name="FilterTags" value="fbuilding,fdesign"/>
+      <property name="SortOrder1" value="40z0"/>
+      <property name="SortOrder2" value="0002"/>
+			<property name="CustomIcon" value="guppyClothingRack" />      
+    </block>  
+    <block name="guppySmallWorkbench">
+        <property name="Extends" value="workbench"/>
+        <property name="Class" value="Workstation" />
+        <property name="CreativeMode" value="Player"/>
+        <property name="Shape" value="ModelEntity" />
+        <property name="Model" value="#@modfolder:Resources/GuppysMiscBlocks.unity3d?guppySmallWorkbenchPrefab"/>
+        <property name="SortOrder2" value="0290"/> <!-- SortShape -->
+        <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+        <property name="FilterTags" value="fdecor,fother,ffurniture"/>  
+        <property name="CustomIcon" value="guppySmallWorkbench"/>
+        <property class="Workstation">
+          <property name="Modules" value="output"/>
+          <property name="CraftingAreaRecipes" value="guppySmallWorkbench"/>
+        </property>  
+        <property name="WorkstationIcon" value="ui_game_symbol_workbench" />
+        <property name="OpenSound" value="open_workbench" />
+        <property name="CloseSound" value="close_workbench" />
+        <property name="WorkstationJournalTip" value="workbenchTip" />  
+        <property class="RepairItems">
+          <property name="resourceForgedIron" value="25" />
+          <property name="resourceMechanicalParts" value="20" />
+          <property name="resourceWood" value="50" />
+        </property>  
+        <property name="TakeDelay" value="15" />  
+        <property name="DescriptionKey" value="workbenchDesc" />
+        <property name="EconomicValue" value="776" />
+        <property name="Group" value="Building,Science" />  
+        <property name="MultiBlockDim" value="1,1,1"/>        
+      </block>  
+    <block name="guppysFubako">
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="15"/>     
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyFubakoPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyFubako" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>  
+    <block name="guppysJanome_open">
+			<property name="Material" value="Mpaper"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyJanome_openPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyJanome_open" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="2,2,2"/>       
+		</block>   
+    <block name="guppysJanome_shut">
+			<property name="Material" value="Mpaper"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyJanome_shutPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyJanome_shut" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="1,2,1"/>       
+		</block>    
+    <block name="guppysJapaneseLamp">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyJapaneseLampPrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyJapaneseLamp" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>  
+    <block name="guppysTetsumabe">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyTetsunabePrefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTetsumabe" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+      <property name="CanPickup" value="true"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+		</block>  
+    <block name="guppysTsuitate01">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyTsuitate01Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTsuitate01" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="3,3,1"/>      
+		</block> 
+    <block name="guppysTsuitate02">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/GuppysMiscJapaneseBlocks.unity3d?guppyTsuitate02Prefab.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyTsuitate02" />
+			<property name="Stabilitysupport" value="false"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>	
+      <property name="MultiBlockDim" value="3,3,1"/>      
+		</block>     
+  </append>
+</configs>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Experience Gain" />
+		<Description value="Experience Gain Modlet."/>
+		<Author value="lam" />
+	<!-- Special thanks to Russiandood -->
+		<Version value="2.0" />
+		<Website value="http://7daystodie.com" />
+	</ModInfo>
+</xml>

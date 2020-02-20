@@ -1,0 +1,39 @@
+<configs>
+<!-- Remove the original "windowForgeInput" from XUi/windows.xml -->
+		<remove xpath="/windows/window[@name='windowForgeInput']" />
+		<!-- Adds the modded "windowForgeInput" to XUi/windows.xml -->
+		<append xpath="/windows">
+			<window name="windowForgeInput" width="228" height="229" panel="Right" controller="WorkstationMaterialInputWindow" materials_accepted="iron,brass,lead,glass,stone,clay" valid_materials_color="[green]" invalid_materials_color="[red]" cursor_area="true" >
+				<panel style="header.panel">
+					<sprite style="header.icon" sprite="ui_game_symbol_forge"/>
+					<label style="header.name" text="INPUT" text_key="xuiSmelting" />
+				</panel>
+				<sprite depth="3" name="backgroundMain" sprite="menu_empty3px" pos="0,-46" height="228" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+				<rect name="content" depth="1" pos="0,-46" height="153">
+
+					<grid depth="7" rows="3" cols="1" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationMaterialInputGrid" repeat_content="true">
+						<item_stack name="0"/>
+					</grid>
+				</rect>
+				<rect name="content2" depth="0" pos="78, -49" width="147" height="223">
+					<sprite depth="1" color="[mediumGrey]" type="sliced" on_press="true"/>
+					<grid rows="6" cols="1" pos="3,-3" cell_width="147" cell_height="37"  repeat_content="true">
+						<forge_material name="0"/>
+					</grid>
+				</rect>
+			</window>
+			<!-- Adds a new output window "windowForgeOutput" just for the forge in XUi/windows.xml -->
+			<window name="windowForgeOutput" pos="0,-91" width="228" height="152" anchor="CenterTop" panel="Right" cursor_area="true" >
+				<panel style="header.panel" pos="0,-40" height="43" depth="1" disableautobackground="false" >
+					<sprite style="header.icon" pos="4,-4" sprite="ui_game_symbol_loot_sack"/>
+					<label style="header.name" pos="42,-6" text="OUTPUT" text_key="xuiOutput" />
+				</panel>
+				<rect name="content" depth="0" pos="0,-88" height="150" disablefallthrough="true" on_press="true">
+					<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" height="150" color="[black]" type="sliced" fillcenter="false" on_press="true" />
+					<grid name="inventory" rows="2" cols="3" pos="3,-3" cell_width="75" cell_height="75" controller="WorkstationOutputGrid" repeat_content="true">
+						<item_stack name="0"/>
+					</grid>
+				</rect>
+			</window>
+		</append>
+</configs>

@@ -1,0 +1,412 @@
+<configs>
+	<append xpath="/blocks">
+
+    <block name="guppyAutopsyTable">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyAutopsyTable.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyAutopsyTable" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" /> 
+		</block>
+    
+    <block name="guppyCorpseOnGurney">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyCorpseOnGurney.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyCorpseOnGurney" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" /> 
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="37"/>      
+		</block>    
+
+    <block name="guppyGurney">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyGurney.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyGurney" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />   
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>            
+		</block>   
+
+    <block name="guppyHorrorDoll">
+			<property name="Material" value="Mcloth"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyHorrorDoll.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyHorrorDoll" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" />    
+      <property name="CanPickup" value="true"/>      
+		</block>
+
+    <block name="guppyHospitalCart1">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyHospitalCart1.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyHospitalCart1" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,2,1" />  
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="7"/>  
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyHospitalShelf">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyHospitalShelf.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyHospitalShelf" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />      
+		</block>
+
+    <block name="guppyHospitalWorktable">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyHospitalWorktable.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyHospitalWorktable" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />  
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyJarBrain">
+			<property name="Material" value="Mglass"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyJarBrain.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyJarBrain" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" />  
+      <property name="CanPickup" value="true"/>  
+		</block>
+
+    <block name="guppyJarEmptyFluid">
+			<property name="Material" value="Mglass"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyJarEmptyFluid.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyJarEmptyFluid" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" /> 
+      <property name="CanPickup" value="true"/>      
+		</block>
+
+    <block name="guppyMedicalCabinet1">
+			<property name="Material" value="Mwood"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyMedicalCabinet1.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMedicalCabinet1" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" />  
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="7"/>      
+		</block>
+
+    <block name="guppyMedicalChalkboard">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyMedicalChalkboard.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMedicalChalkboard" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />      
+		</block>
+
+    <block name="guppyMedicalTrashcan">
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyMedicalTrashcan.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyMedicalTrashcan" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" /> 
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="37"/>        
+		</block>
+
+    <block name="guppyOldHospitalBed1">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyOldHospitalBed1.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyOldHospitalBed1" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />  
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyOldHospitalBed2">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyOldHospitalBed2.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyOldHospitalBed2" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />  
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyOldHospitalBed3">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyOldHospitalBed3.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyOldHospitalBed3" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />  
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyOrganScale">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyOrganScale.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyOrganScale" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,3,1" /> .
+      <property name="Class" value="Loot"/> 
+      <property name="LootList" value="37"/>     
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>
+
+    <block name="guppyPainting01">
+			<property name="Material" value="Mwood_weak"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyPainting01.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyPainting01" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" /> 
+      <property name="CanPickup" value="true"/>      
+		</block>
+
+    <block name="guppyRockingChair">
+			<property name="Material" value="Mwood"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyRockingChair.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyRockingChair" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" />      
+		</block>
+
+    <block name="guppyWheelchair">
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyHospitalBlocks.unity3d?guppyWheelchair.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyWheelchair" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="1,1,1" />   
+      <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+      <drop event="Harvest" name="resourceMechanicalParts" count="1,3" tag="salvageHarvest"/>
+      <drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+      <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>      
+		</block>    
+
+  </append>
+</configs>

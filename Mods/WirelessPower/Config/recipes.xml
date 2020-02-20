@@ -1,0 +1,9 @@
+<configs>
+	<append xpath="/recipes" >
+		<recipe name="WirelessPowerBox" count="1" craft_area="workbench">
+			<ingredient name="resourceElectricParts" count="3"/>
+			<ingredient name="resourceElectricParts" count="5"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>
+	</append>
+</configs>

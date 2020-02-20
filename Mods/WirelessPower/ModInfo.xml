@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="WirelessPower" />
+		<Description value="Adds wireless power!" />
+		<Author value="Squallz" />
+		<Version value="1.4" />
+		<Website value="" />
+	</ModInfo>
+</xml>

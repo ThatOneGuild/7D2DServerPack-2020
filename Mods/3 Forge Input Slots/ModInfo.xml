@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="3 Forge Input Slots" />
+		<Description value="Adds a extra input slot to the forge" />
+		<Author value="308" />
+		<Version value="v1.01" />
+	</ModInfo>
+</xml>

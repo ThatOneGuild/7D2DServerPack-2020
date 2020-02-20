@@ -1,0 +1,124 @@
+<configs>
+	<append xpath="/recipes">
+		<!-- Guppycur's_Hospital_Blocks -->
+		<recipe name="guppyAutopsyTable" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="10"/>
+	        <ingredient name="resourceScrapPolymers" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyCorpseOnGurney" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="foodRottingFlesh" count="8"/>
+	        <ingredient name="resourceCloth" count="10"/>
+	        <ingredient name="resourceForgedIron" count="8"/>
+	        <ingredient name="resourceMetalPipe" count="4"/>
+	        <ingredient name="resourceBone" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyGurney" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="8"/>
+	        <ingredient name="resourceMetalPipe" count="4"/>
+	        <ingredient name="resourceCloth" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyHorrorDoll" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="10"/>
+	        <ingredient name="resourceScrapPolymers" count="5"/>
+	        <ingredient name="resourceCobblestones" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyHospitalCart1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="4"/>
+	        <ingredient name="resourceMechanicalParts" count="2"/>
+		</recipe>		
+		
+		
+		<recipe name="guppyHospitalShelf" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceScrapIron" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyHospitalWorktable" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyJarBrain" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceBrokenGlass" count="5"/>
+	        <ingredient name="drinkJarRiverWater" count="1"/>
+	        <ingredient name="foodRottingFlesh" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyJarEmptyFluid" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceBrokenGlass" count="5"/>
+	        <ingredient name="drinkJarRiverWater" count="1"/>
+		</recipe>		
+
+		
+		<recipe name="guppyMedicalChalkboard" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceRockSmall" count="30"/>
+	        <ingredient name="resourcePotassiumNitratePowder" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyMedicalTrashcan" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="2"/>
+	        <ingredient name="resourceScrapPolymers" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyOldHospitalBed1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceCropCottonPlant" count="20"/>
+	        <ingredient name="resourceMechanicalParts" count="4"/>
+	        <ingredient name="resourceMetalPipe" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyOldHospitalBed2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceMetalPipe" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyOldHospitalBed3" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceCropCottonPlant" count="20"/>
+	        <ingredient name="resourceMechanicalParts" count="4"/>
+	        <ingredient name="resourceMetalPipe" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyOrganScale" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="4"/>
+	        <ingredient name="resourceBrokenGlass" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyPainting01" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="resourcePaint" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyRockingChair" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyWheelchair" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="4"/>
+	        <ingredient name="resourceMetalPipe" count="4"/>
+	        <ingredient name="resourceMechanicalParts" count="5"/>
+		</recipe>		
+		
+	</append>
+	
+</configs>

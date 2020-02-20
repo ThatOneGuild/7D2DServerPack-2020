@@ -1,0 +1,6 @@
+<fgstainlessmod>
+		<!-- Making Stainless worth the effort -->
+	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='stability_glue']/@value">500</set>
+	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='explosionresistance']/@value">2.5</set>
+	<set xpath="/materials/material[@id='MstainlessSteel']/property[@name='MaxDamage']/@value">20000</set>
+</fgstainlessmod>

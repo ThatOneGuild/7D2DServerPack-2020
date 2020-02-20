@@ -1,0 +1,300 @@
+<configs>
+	<append xpath="/blocks">
+
+    <block name="guppyVictorianBathtub">
+			<property name="Material" value="Mglass"/>
+			<property name="IsTerrainDecoration" value="true"/>	
+			<property name="Shape" value="ModelEntity"/>	
+			<property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianBathtub.prefab"/>
+			<property name="Place" value="TowardsPlacerInverted"/>			
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>	
+			<property name="CustomIcon" value="guppyVictorianBathtub" />
+			<property name="Stabilitysupport" value="true"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Stacknumber" value="10"/>
+			<property name="Group" value="Basics,Building"/>
+			<property name="DescriptionKey" value="torchGroupDesc"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+      <property name="MultiBlockDim" value="2,1,1" />      
+		</block>
+    
+    <block name="guppyVictorianBedTwin">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianBedTwin.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianBedTwin" />  
+      <property name="MultiBlockDim" value="3,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+    
+    <block name="guppyVictorianBedKing">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianBedKing.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianBedKing" />  
+      <property name="MultiBlockDim" value="3,2,2" />
+			<property name="Material" value="Mwood"/>      
+    </block>     
+
+    <block name="guppyVictorianBookshelf1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianBookshelf1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianBookshelf1" />  
+      <property name="MultiBlockDim" value="3,3,1" />
+			<property name="Material" value="Mwood"/> 
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianChair1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianChair1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianChair1" />  
+      <property name="MultiBlockDim" value="1,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianChair3">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianChair3.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianChair3" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianClock">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianClock.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianClock" />  
+      <property name="MultiBlockDim" value="1,3,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianCouch1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCouch1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCouch1" />  
+      <property name="MultiBlockDim" value="3,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianCouch2">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCouch2.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCouch2" />  
+      <property name="MultiBlockDim" value="3,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianCounter1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCounter1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCounter1" />  
+      <property name="MultiBlockDim" value="3,1,1" />
+			<property name="Material" value="Mwood"/>
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianCupboard1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCupboard1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCupboard1" />  
+      <property name="MultiBlockDim" value="3,4,1" />
+			<property name="Material" value="Mwood"/> 
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianCupboard2">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCupboard2.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCupboard2" />  
+      <property name="MultiBlockDim" value="1,4,1" />
+			<property name="Material" value="Mwood"/>  
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianCupboard4">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCupboard4.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCupboard4" />  
+      <property name="MultiBlockDim" value="3,2,1" />
+			<property name="Material" value="Mwood"/> 
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianCurtain1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianCurtain1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianCurtain1" />  
+      <property name="MultiBlockDim" value="3,3,1" />
+			<property name="Material" value="Mcloth"/>      
+    </block> 
+
+    <block name="guppyVictorianDesk">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianDesk.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianDesk" />  
+      <property name="MultiBlockDim" value="3,2,1" />
+			<property name="Material" value="Mwood"/> 
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianHanger2">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianHanger2.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianHanger2" />  
+      <property name="MultiBlockDim" value="2,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianHangingLamp">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianHangingLamp.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianHangingLamp" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mglass"/>      
+    </block> 
+
+    <block name="guppyVictorianShelf3">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianShelf3.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianShelf3" />  
+      <property name="MultiBlockDim" value="2,3,1" />
+			<property name="Material" value="Mwood"/>  
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianShelf4">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianShelf4.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianShelf4" />  
+      <property name="MultiBlockDim" value="2,3,1" />
+			<property name="Material" value="Mwood"/> 
+      <property name="Class" value="Loot"/>
+      <property name="LootList" value="49"/>      
+    </block> 
+
+    <block name="guppyVictorianSink">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianSink.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianSink" />  
+      <property name="MultiBlockDim" value="1,2,1" />
+			<property name="Material" value="Mglass"/>      
+    </block> 
+
+    <block name="guppyVictorianTable1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianTable1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianTable1" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianTable2">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianTable2.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianTable2" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianTable3">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianTable3.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianTable3" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianTable4">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianTable4.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianTable4" />  
+      <property name="MultiBlockDim" value="3,1,2" />
+			<property name="Material" value="Mwood"/>      
+    </block> 
+
+    <block name="guppyVictorianToilet">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianToilet.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianToilet" />  
+      <property name="MultiBlockDim" value="1,2,1" />
+			<property name="Material" value="Mglass"/>      
+    </block> 
+
+    <block name="guppyVictorianTowelRack">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianTowelRack.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianTowelRack" />  
+      <property name="MultiBlockDim" value="1,2,1" />
+			<property name="Material" value="Mwood"/>      
+    </block>     
+  
+    <block name="guppyVictorianWallLamp1">
+      <property name="Extends" value="guppyVictorianBathtub" param1="DescriptionKey" />
+      <property name="Shape" value="ModelEntity" />
+      <property name="Model" value="#@modfolder:Resources/guppyVictorianBlocks.unity3d?guppyVictorianWallLamp1.prefab"/>
+      <property name="Texture" value="8" />
+      <property name="CustomIcon" value="guppyVictorianWallLamp1" />  
+      <property name="MultiBlockDim" value="1,1,1" />
+			<property name="Material" value="Mglass"/>      
+    </block>  
+
+  </append>
+</configs>

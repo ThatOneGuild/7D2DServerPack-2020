@@ -1,0 +1,16 @@
+<configs>
+
+
+	<append xpath="lootcontainers/lootgroup[@name='schematicsModsRare']">
+		<item name="VitiminsSchematic"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='farmingCookingRecipes']">
+		<item name="plantedSnowberry1Schematic"/>
+	</append>
+	
+	<append xpath="lootcontainers/lootgroup[@name='seeds']">
+		<item name="plantedSnowberry1"/>
+	</append>
+	
+</configs>

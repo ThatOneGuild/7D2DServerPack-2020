@@ -1,0 +1,146 @@
+<configs>
+	<append xpath="/recipes">
+		<!-- Guppycur's_Commecial_Blocks -->
+		<recipe name="guppyComGasRange1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="4"/>
+	        <ingredient name="resourceMetalPipe" count="4"/>
+	        <ingredient name="resourceMechanicalParts" count="3"/>
+	        <ingredient name="resourceElectricParts" count="4"/>
+		</recipe>		
+		
+		<recipe name="guppyComRefrigerator1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="5"/>
+	        <ingredient name="resourceMetalPipe" count="2"/>
+	        <ingredient name="resourceMechanicalParts" count="1"/>
+	        <ingredient name="resourceElectricParts" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComSink1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="50"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComSink2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComTowelDispenser1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceForgedIron" count="2"/>
+	        <ingredient name="resourcePaper" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComTrashCan1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceScrapPolymers" count="15"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComTrashCan2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceForgedIron" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyComWorkTable1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceForgedIron" count="7"/>
+		</recipe>		
+
+		
+		<recipe name="guppyDisplayCounter1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="15"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyDisplayCounter2" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyDisplayCounter3" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyFoodCounter1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="8"/>
+		</recipe>		
+
+		
+		<recipe name="guppyFoodCounter2" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyFoodCounter3" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="15"/>
+	        <ingredient name="resourceCobblestones" count="10"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyFoodCounter4" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceWood" count="15"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceForgedIron" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyFoodCounter5" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyHandDryer2" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceForgedIron" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyMeatCounter1" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="30"/>
+			<ingredient name="resourceForgedIron" count="8"/>
+		</recipe>		
+
+		
+		<recipe name="guppyPedestalSink1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="50"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppySinkTop1" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="20"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppySinkTop2" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="20"/>
+			<ingredient name="resourceMetalPipe" count="2"/>
+		</recipe>		
+
+		
+		<recipe name="guppyUrinal2" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceCobblestones" count="30"/>
+			<ingredient name="resourceMetalPipe" count="3"/>
+		</recipe>		
+		
+	</append>
+	
+</configs>

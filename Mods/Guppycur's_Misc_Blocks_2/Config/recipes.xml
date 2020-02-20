@@ -1,0 +1,230 @@
+<configs>
+	<append xpath="/recipes">
+		<!-- Guppycur's_Misc_Blocks_2 -->
+		<recipe name="guppyNewBed01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceCropCottonPlant" count="10"/>
+	        <ingredient name="resourceSpring" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewBed02" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceCropCottonPlant" count="10"/>
+	        <ingredient name="resourceSpring" count="4"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewStepsConcrete01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceRockSmall" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewStepsWood01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewCabinet01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewCabinet02" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewChair01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewRockingChair01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGrandfatherClock01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceBrokenGlass" count="10"/>
+	        <ingredient name="resourceMechanicalParts" count="3"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewChurchBench01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewBench01Damaged" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewParkBench01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="20"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewLargeTable01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="100"/>
+			<ingredient name="resourceNail" count="40"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewSofa01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="30"/>
+	        <ingredient name="resourceCloth" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewPulpit01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="50"/>
+	        <ingredient name="resourceNail" count="20"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGravestone01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="10"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGravestone02" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGravestone03" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGravestone04" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="5"/>
+		</recipe>		
+
+		
+		<recipe name="guppyNewGravestone05" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="5"/>
+		</recipe>		
+
+
+		<recipe name="guppyNewGravestone01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceCobblestones" count="5"/>
+		</recipe>	
+		
+		<recipe name="guppyNewLight01" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceElectricParts" count="1"/>
+		</recipe>		
+		
+		<recipe name="guppyNewLight02" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceElectricParts" count="1"/>
+		</recipe>	
+		
+		<recipe name="guppyNewLight03" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceElectricParts" count="1"/>
+		</recipe>		
+		
+		<recipe name="guppyNewLight04" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceElectricParts" count="1"/>
+		</recipe>		
+		
+		<recipe name="guppyNewLight05" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourceScrapBrass" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceElectricParts" count="1"/>
+		</recipe>		
+		
+		<recipe name="guppyNewPainting01" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+	        <ingredient name="resourceWood" count="5"/>
+		</recipe>		
+		
+		<recipe name="guppyNewPainting02" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+	        <ingredient name="resourceWood" count="5"/>
+		</recipe>		
+		
+		<recipe name="guppyNewPainting03" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+	        <ingredient name="resourceWood" count="5"/>
+		</recipe>		
+		
+		<recipe name="guppyNewPainting04" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaper" count="10"/>
+			<ingredient name="resourcePaint" count="2"/>
+	        <ingredient name="resourceWood" count="5"/>
+		</recipe>		
+		
+		<recipe name="guppyNewRug01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourcePaint" count="5"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewRug02" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourcePaint" count="5"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewRug03" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourcePaint" count="5"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewRug04" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourcePaint" count="5"/>
+	        <ingredient name="resourceCloth" count="20"/>
+	        <ingredient name="resourceYuccaFibers" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewSmallTable01" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewSmallTable02" count="1" craft_area="workbench" craft_time="25">
+	        <ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceNail" count="10"/>
+		</recipe>		
+		
+		<recipe name="guppyNewVase01" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceCobblestones" count="3"/>
+		</recipe>		
+		
+		<recipe name="guppyNewVase02" count="1" craft_area="workbench" craft_time="25">
+			<ingredient name="resourcePaint" count="2"/>
+			<ingredient name="resourceBrokenGlass" count="20"/>
+	        <ingredient name="resourceCobblestones" count="3"/>
+		</recipe>		
+		
+	</append>
+	
+</configs>

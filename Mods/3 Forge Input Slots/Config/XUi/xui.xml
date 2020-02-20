@@ -1,0 +1,9 @@
+<configs>
+	<!-- xui.xml -->
+	<!-- Removes the old output window from the "workstation_forge" window group in xui.xml -->
+		<remove xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowOutput']" />
+		<!-- Adds the new output window to the "workstation_forge" window group in xui.xml -->
+		<append xpath="/xui/ruleset/window_group[@name='workstation_forge']">
+			<window name="windowForgeOutput" />
+		</append>
+</configs>

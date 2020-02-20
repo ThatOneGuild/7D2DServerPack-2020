@@ -1,0 +1,26 @@
+<configs>
+	<append xpath="/blocks">	
+		<block id="2042" name="WirelessPowerBox">
+			<property name="Class" value="Powered"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="Texture" value="8"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Mesh" value="models"/>
+			<property name="MaxDamage" value="500"/>
+			<property name="Model" value="Industrial/fusebox" param1="main_mesh"/> <property name="HandleFace" value="South"/>
+			<property name="CustomIcon" value="fusebox"/>
+			<property name="ModelOffset" value="0,0.5,0"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="RequiredPower" value="1"/>
+			<property name="Group" value="Science"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="1"/></property>
+			<drop event="Harvest" name="resourceElectricParts" count="0,1" tool_category="Disassemble"/>
+			<drop event="Harvest" name="scrapIron" count="5,30"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.70" stick_chance="1"/>
+			<property name="EconomicValue" value="30"/>
+			<property name="TakeDelay" value="5"/>
+		</block>
+	</append>
+</configs>
